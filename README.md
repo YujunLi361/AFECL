@@ -17,7 +17,7 @@ To run AFECL：
 
 ```bash
 python train.py --dataset=cora --lr=0.01 --num-heads=4 --num-hidden=32 --tau=1 --weight-decay=1e-4 --in-drop=0.6 --attn-drop=0.5 --epochs=2000 --num-layers=1 --seed=1 --negative-slope=0.2 --rate=1
-echo 
+
 ```
 
 
@@ -33,5 +33,5 @@ echo
   pages={18575--18583},
   year={2025}
 }
-echo
+
 ```
